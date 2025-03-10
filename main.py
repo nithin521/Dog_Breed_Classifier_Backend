@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask import make_response
 from flask_cors import CORS
 from tensorflow.keras.preprocessing import image
 import numpy as np
@@ -8,7 +9,7 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-CORS(app, origins="https://dogbreedclassifier.com")
+CORS(app, origins="https://dogbreedclassifier.netlify.app")
 
 
 # Load the TFLite model
@@ -33,13 +34,10 @@ def preprocess_image(img, target_size=(260, 260)):
 
 # Prediction route
 @app.route("/predict", methods=["POST"])
-from flask import make_response
-
-@app.route("/predict", methods=["POST"])
 def predict():
     if "file" not in request.files:
         response = jsonify({"error": "No file uploaded"})
-        response.headers.add("Access-Control-Allow-Origin", "https://dogbreedclassifier.com")
+        response.headers.add("Access-Control-Allow-Origin", "https://dogbreedclassifier.netlify.app")
         return response, 400
 
     file = request.files["file"]
@@ -58,7 +56,7 @@ def predict():
     }
     
     response = make_response(jsonify(top_result))
-    response.headers.add("Access-Control-Allow-Origin", "https://dogbreedclassifier.com")  # Allow frontend requests
+    response.headers.add("Access-Control-Allow-Origin", "https://dogbreedclassifier.netlify.app")  # Allow frontend requests
     return response
 
 
