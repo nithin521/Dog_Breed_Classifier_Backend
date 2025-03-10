@@ -34,7 +34,7 @@ flatbuffers==24.3.25
 frozenlist==1.5.0
 gast==0.6.0
 google-auth==2.38.0
-google-auth-oauthlib==1.2.1
+google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
 grpcio==1.68.1
 gunicorn==23.0.0
@@ -47,7 +47,7 @@ idna==3.4
 itsdangerous==2.2.0
 Jinja2==3.1.5
 joblib==1.4.2
-keras==2.15.0
+keras==2.14.0
 libclang==18.1.1
 lightnovel-crawler==3.7.5
 lxml==5.2.2
@@ -121,11 +121,11 @@ sortedcontainers==2.4.0
 soupsieve==2.5
 stringify==0.1.1
 Telethon==1.36.0
-tensorboard==2.15.2
+tensorboard==2.14.1
 tensorboard-data-server==0.7.2
-tensorflow-cpu==2.15.0
-tensorflow-estimator==2.15.0
-tensorflow-intel==2.15.0
+tensorflow==2.14.0
+tensorflow-estimator==2.14.0
+tensorflow-intel==2.14.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.5.0
 text-unidecode==1.3
