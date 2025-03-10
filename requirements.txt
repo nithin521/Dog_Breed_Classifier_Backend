@@ -1,4 +1,4 @@
-﻿absl-py==2.1.0
+absl-py==2.1.0
 aiohappyeyeballs==2.4.6
 aiohttp==3.11.13
 aiosignal==1.3.2
@@ -13,6 +13,7 @@ beautifulsoup4==4.12.3
 better-exceptions==0.3.3
 black==25.1.0
 blinker==1.9.0
+cachetools==5.5.2
 certifi==2022.12.7
 cffi==1.16.0
 chardet==5.2.0
@@ -32,6 +33,8 @@ Flask-Cors==5.0.0
 flatbuffers==24.3.25
 frozenlist==1.5.0
 gast==0.6.0
+google-auth==2.38.0
+google-auth-oauthlib==1.2.1
 google-pasta==0.2.0
 grpcio==1.68.1
 gunicorn==23.0.0
@@ -44,7 +47,7 @@ idna==3.4
 itsdangerous==2.2.0
 Jinja2==3.1.5
 joblib==1.4.2
-keras==3.7.0
+keras==2.15.0
 libclang==18.1.1
 lightnovel-crawler==3.7.5
 lxml==5.2.2
@@ -55,12 +58,12 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mccabe==0.7.0
 mdurl==0.1.2
-ml-dtypes==0.4.1
+ml-dtypes==0.2.0
 multidict==6.1.0
 mypy-extensions==1.0.0
 namex==0.0.8
 nltk==3.8.1
-numpy==2.0.1
+numpy==1.26.4
 oauthlib==3.2.2
 openpyxl==3.1.5
 opt_einsum==3.4.0
@@ -75,9 +78,10 @@ platformdirs==4.3.6
 progressbar2==4.5.0
 prompt_toolkit==3.0.50
 propcache==0.3.0
-protobuf==5.29.2
+protobuf==4.25.6
 pyaes==1.6.1
 pyasn1==0.6.0
+pyasn1_modules==0.4.1
 pycodestyle==2.12.1
 pycparser==2.22
 pycryptodome==3.21.0
@@ -117,11 +121,12 @@ sortedcontainers==2.4.0
 soupsieve==2.5
 stringify==0.1.1
 Telethon==1.36.0
-tensorboard==2.18.0
+tensorboard==2.15.2
 tensorboard-data-server==0.7.2
-tensorflow==2.18.0
+tensorflow-cpu==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-intel==2.15.0
 tensorflow-io-gcs-filesystem==0.31.0
-tensorflow_intel==2.18.0
 termcolor==2.5.0
 text-unidecode==1.3
 textblob==0.18.0.post0
@@ -143,6 +148,6 @@ webencodings==0.5.1
 websocket-client==1.8.0
 websockets==12.0
 Werkzeug==3.1.3
-wrapt==1.17.0
+wrapt==1.14.1
 wsproto==1.2.0
 yarl==1.18.3
