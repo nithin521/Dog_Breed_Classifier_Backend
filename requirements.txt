@@ -47,7 +47,7 @@ idna==3.4
 itsdangerous==2.2.0
 Jinja2==3.1.5
 joblib==1.4.2
-keras==2.14.0
+keras==2.15.0
 libclang==18.1.1
 lightnovel-crawler==3.7.5
 lxml==5.2.2
@@ -121,10 +121,10 @@ sortedcontainers==2.4.0
 soupsieve==2.5
 stringify==0.1.1
 Telethon==1.36.0
-tensorboard==2.14.1
+tensorboard==2.15.2
 tensorboard-data-server==0.7.2
-tensorflow==2.14.0
-tensorflow-estimator==2.14.0
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.5.0
 text-unidecode==1.3
